@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const correctPassword = 'prezzo'; 
 
     if (passwordInput === correctPassword) {
-        window.location.href = 'uscita.html'; 
+        window.location.href = 'Uscita.html'; 
     } else {
         laughSound.play();
     }

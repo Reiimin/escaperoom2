@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const correctPassword = 'indifferenza'; 
 
     if (passwordInput === correctPassword) {
-        window.location.href = 'settima stanza.html'; 
+        window.location.href = 'Settima stanza.html'; 
     } else {
         laughSound.play();
     }

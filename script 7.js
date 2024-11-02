@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const correctPassword = 'emarginati'; 
 
     if (passwordInput === correctPassword) {
-        window.location.href = 'ottava stanza.html'; 
+        window.location.href = 'Ottava stanza.html'; 
     } else {
         laughSound.play();
     }

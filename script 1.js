@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const correctPassword = 'presunzione'; 
 
     if (passwordInput === correctPassword) {
-        window.location.href = 'seconda stanza.html'; 
+        window.location.href = 'Seconda stanza.html'; 
     } else {
         laughSound.play();
     }

@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function() {
     const correctPassword = 'esperimento'; 
 
     if (passwordInput === correctPassword) {
-        window.location.href = 'quinta stanza.html'; 
+        window.location.href = 'Quinta stanza.html'; 
     } else {
         laughSound.play();
     }
